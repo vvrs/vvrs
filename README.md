@@ -154,10 +154,15 @@ Subscriptions:
 
 ### Custom Message types
 #### CarDimensions.msg
+
 float64 **wheelbase**
+
 float64 **track**
+
 float64 **length**
+
 float64 **width**
+
 #### CarVelocity.msg
 float64 **linear**
 float64 **angular**
@@ -217,4 +222,3 @@ At this point, copy this package into src directory and run below commands
 cd ~/catkin_ws
 catkin_make
 ```
-  Sent with Mailtrack  
